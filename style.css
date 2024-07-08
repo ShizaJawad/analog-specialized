@@ -9,20 +9,34 @@
     font-weight: 300;
     font-style: normal; */
 /* } */
-h1{
-    margin: 0 auto;
+html{
+    font-size: 62.5%;
+   
 }
-.second{
+
+.parent{
+    margin-top: 100px;
+
+}
+h4{
     font-family: "Baskervville SC", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
 }
 h1{
-    margin: 0 auto;
+    font-size: 3rem;
+    text-align: center;
+}
+.children{
+    font-size: 2rem;
+    text-align: center;
 }
 img{
     height: 50 px;
     width: 250px;
+    display: inline-block;
+    align-items: center;
 }
 div{
     color: #000000;
@@ -30,4 +44,8 @@ div{
     word-spacing: 50px;
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
+}
+
+p{
+    text-align: center;
 }
